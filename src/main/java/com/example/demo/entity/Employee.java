@@ -6,7 +6,7 @@ public class Employee {
     private String address;
     private Double salary;
 
-    // Getters and Setters
+    // Getters and Setters added
     public Integer getEmpId() { return empId; }
     public void setEmpId(Integer empId) { this.empId = empId; }
 
