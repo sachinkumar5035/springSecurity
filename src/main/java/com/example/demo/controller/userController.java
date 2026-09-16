@@ -26,8 +26,8 @@ public class userController {
         return ResponseEntity.ok(authService.registerUser(userRegisterRequestDto));
     }
 
-    @GetMapping("/token")
-    public CsrfToken getToken(CsrfToken csrfToken){
-        return csrfToken;
+    @GetMapping("/hello")
+    public String getHello(){
+        return "Hello, World!";
     }
 }
